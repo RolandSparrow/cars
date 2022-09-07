@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/images.ico" type="image/x-icon">
+    <title>Cars</title>
+</head>
+<body>
+    <section id="barra_menu">
+        <a class="logo" href=""><img src="img/images.ico" alt=""></a>
+        <nav>
+                <a href="">Inicio</a>
+                <a href="">Autos</a>
+                <a href="">Info</a>
+                <a href="">Contactenos</a> 
+        </nav>
+        <div class="opciones">
+            <a href=""><img id="search" src="img/Search.png" alt=""></a>
+            <a href=""><img id="user" src="img/User.png" alt=""></a>
+        </div>
+    </section>
+    <main>
+        <h1>Encontraras los mejores carros y precios del mercado</h1>
+        <section class="ingreso">
+            <form  action="" method="post">
+                <div class="contenido_form">
+                    <label for="name">Nombre</label><br>
+                    <input type="text" id="name" name="nombre" value="" placeholder="name" size="20" pattern="[A-Za-z ]{1,15}" required><br><br>
+                </div>
+                <div class="contenido_form">
+                    <label for="last_name">Apellido</label><br>
+                    <input type="text" id="last_name" name="apellido" placeholder="last_name" size="20" pattern="[A-Za-z ]{1,15}" required><br><br>
+                </div>  
+                <div class="contenido_form">    
+                    <label for="opciones_id" >Tipo de identificación</label><br>
+                    <select name="opciones" id="opciones_id"  required>
+                        <option value="0" selected="selected" disabled>seleccionar</option>
+                        <option value="1">Tarjeta de Identidad</option>
+                        <option value="2">Cedula de Extrajeria</option>
+                        <option value="3">Cedula de Ciudadania</option>
+                    </select>
+                </div><br>     
+                <div class="contenido_form">  
+                    <label for="email">Correo Electronico</label><br>
+                    <input type="email" id="email" name="email" placeholder="email" size="20"  required><br><br>
+                </div>
+                <div class="contenido_form">  
+                    <label for="contrasena">contraseña</label><br>
+                    <input type="password" id="contrasena" name="password" placeholder="password" size="20" required ><br><br>
+                </div>
+                <div class="contenido_form">  
+                    <label for="telefono">Telefono</label><br>
+                    <input type="number" pattern="[1,99]{10}"  id="telefono" placeholder="number" required>
+                </div> 
+                <div class="privacidad">
+                    <input type="checkbox" required>
+                    <label for="">He leído y acepto las politicas de privacidad</label>
+                </div>
+                <div class="submit">
+                <input id="button" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
