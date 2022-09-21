@@ -66,8 +66,7 @@ nav a{
 .ingreso{
     padding: 2.5rem 0;
     width: 50rem;
-    border: black solid;
-    background: url(../img/fondo.jpg)no-repeat center center fixed;
+    background-color: rgb(250, 235, 215, 0.60);
     background-size: cover;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
@@ -76,7 +75,7 @@ nav a{
     -o-border-radius: 5rem;
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 6.5rem;
+    margin-top: 1.5rem;
 }
 
 h1{
@@ -85,7 +84,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     color: aliceblue;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 form{

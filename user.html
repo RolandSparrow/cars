@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="shortcut icon" href="img/images.ico" type="image/x-icon">
     <title>Cars</title>
 </head>
 <body>
-    
+    <section id="barra_menu">
+        <a class="logo" href=""><img src="img/images.ico" alt=""></a>
+        <nav>
+                <a href="../Pagina_cars/inicio.html">Inicio</a>
+                <a href="../Pagina_cars/Catalogo.html">Autos</a>
+                <a href="">Info</a>
+                <a href="../Pagina_cars/index.html">Contactenos</a> 
+        </nav>
+        <div class="opciones">
+            <a href=""><img id="search" src="img/Search.png" alt=""></a>
+            <a href=""><img id="user" src="img/User.png" alt=""></a>
+        </div>
+    </section>
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo">
+                    Iniciar Sesión
+                </div>
+                <form action="../page/usuario.html" method="post">
+                    <input type="text" name="usuario" placeholder="Usuario" required>
+                    
+                    <input type="password" placeholder="Contraseña" name="password" required>
+                    
+                    <input  class="button" type="submit" value="Iniciar Sesión">
+                </form>
+                <div class="pie-form">
+                    <a href="#">¿Perdiste tu contraseña?</a>
+                    <a href="#">¿No tienes Cuenta? Registrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

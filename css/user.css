@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background: url(../img/carro.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#barra_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    height: 4rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 3.2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;   
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+#search{
+    width: 1.75rem;
+}
+
+#user{
+    width: 2rem;
+}
+
+.ingreso{
+    padding: 2.5rem 0;
+    width: 50rem;
+    background-color: rgb(250, 235, 215, 0.60);
+    background-size: cover;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 1.5rem;
+}
+
+
+#contenedor {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 1.75rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    background-color: rgb(250, 235, 215, 0.60);
+
+    width: 100%;
+    padding: 50px 30px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    border: solid black 1px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border-radius: 2rem ;
+    -webkit-border-radius: 2rem ;
+    -moz-border-radius: 2rem ;
+    -ms-border-radius: 2rem ;
+    -o-border-radius: 2rem ;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: black;
+}
+
+.button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 2rem;
+    background-color: #4892c4;
+    color: white;
+    margin-top: 10px;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.button:hover {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+}
+
+.pie-form {
+    font-size: 30px;
+    text-align: center;    
+    margin-top: 25px;
+}
+
+.pie-form a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3px;
+    font-size: 1.4rem;
+}
+
+.pie-form a:hover {
+    color: #426d8a;
+}
